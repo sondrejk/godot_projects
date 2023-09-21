@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3 uid="uid://bj3qw6yeaabc1"]
+
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_ll6xq"]
+[ext_resource type="PackedScene" uid="uid://bp55pue0f7brq" path="res://scenes/player.tscn" id="1_rpyev"]
+[ext_resource type="PackedScene" uid="uid://c50mgt3ncphdj" path="res://scenes/enemy.tscn" id="2_dqtt2"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_ll6xq")
+
+[node name="Player" parent="." instance=ExtResource("1_rpyev")]
+position = Vector2(147, 109)
+
+[node name="Enemy" parent="." instance=ExtResource("2_dqtt2")]
+position = Vector2(145, -10)
+motion_mode = 1
+
+[node name="Enemy_spawn_timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+z_index = -1
+color = Color(0.862745, 0.713726, 0.376471, 1)
+polygon = PackedVector2Array(0, 0, 240, 0, 240, 135, 0, 135)
+
+[node name="Polygon2D2" type="Polygon2D" parent="."]
+z_index = 1
+color = Color(0.231373, 0.231373, 0.231373, 1)
+polygon = PackedVector2Array(0, 0, 10, 0, 10, 135, 0, 135)
+
+[node name="Polygon2D4" type="Polygon2D" parent="."]
+z_index = 1
+color = Color(0.231373, 0.231373, 0.231373, 1)
+polygon = PackedVector2Array(0, 0, 240, 0, 240, 10, 0, 10)
+
+[node name="Polygon2D5" type="Polygon2D" parent="."]
+z_index = 1
+position = Vector2(0, 125)
+color = Color(0.231373, 0.231373, 0.231373, 1)
+polygon = PackedVector2Array(0, 0, 240, 0, 240, 10, 0, 10)
+
+[node name="Polygon2D3" type="Polygon2D" parent="."]
+z_index = 1
+position = Vector2(230, 0)
+color = Color(0.231373, 0.231373, 0.231373, 1)
+polygon = PackedVector2Array(0, 0, 10, 0, 10, 135, 0, 135)
+
+[connection signal="timeout" from="Enemy_spawn_timer" to="." method="_on_enemy_spawn_timer_timeout"]
