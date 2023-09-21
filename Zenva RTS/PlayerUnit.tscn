@@ -7,6 +7,7 @@
 [node name="PlayerUnit" instance=ExtResource("1_nxshl")]
 position = Vector2(0, 0)
 script = ExtResource("2_dupl5")
+is_player = true
 
 [node name="SelectionVisual" type="Sprite2D" parent="." index="0"]
 visible = false

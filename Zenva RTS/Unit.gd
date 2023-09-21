@@ -15,7 +15,7 @@ var sprite : Sprite2D
 
 func _ready():
 	agent = $NavigationAgent2D
-	sprite = $Sprite2D
+	sprite = $Sprite
 	
 func _physics_process(delta):
 	if agent.is_navigation_finished():
@@ -57,3 +57,7 @@ func take_damage(damage_to_take):
 	health -=damage_to_take
 	if health <=0:
 		queue_free()
+		
+	sprite.modulate = Color.RED
+	await get_tree().create_timer(0.1).timeout
+	sprite.modulate = Color.WHITE
