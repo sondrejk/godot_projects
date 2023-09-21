@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bnv6w3qmaec8w"]
+
+[ext_resource type="PackedScene" uid="uid://cr4tayl22l672" path="res://Unit.tscn" id="1_qlpte"]
+[ext_resource type="Texture2D" uid="uid://c3ed3gatqejm3" path="res://Sprites/tile_0109.png" id="2_1wtwq"]
+[ext_resource type="Script" path="res://EnemyUnit.gd" id="2_unfu7"]
+
+[node name="Enemyunit" instance=ExtResource("1_qlpte")]
+position = Vector2(0, 0)
+script = ExtResource("2_unfu7")
+
+[node name="Sprite" parent="." index="0"]
+texture = ExtResource("2_1wtwq")
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(0, 0)
