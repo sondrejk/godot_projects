@@ -632,7 +632,3 @@ position = Vector2(76, -11)
 [node name="EndFlag" parent="." instance=ExtResource("8_lgug7")]
 position = Vector2(638, -44)
 next_scene = "res://Levels/Level2.tscn"
-
-[connection signal="body_entered" from="Spike" to="Spike" method="_on_body_entered"]
-[connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]
-[connection signal="body_entered" from="EndFlag" to="EndFlag" method="_on_body_entered"]
