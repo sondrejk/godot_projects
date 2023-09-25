@@ -176,5 +176,42 @@ zoom = Vector2(1.9, 1.9)
 [node name="PlayerUnit" parent="." instance=ExtResource("2_jqamo")]
 position = Vector2(-182, -2)
 
+[node name="PlayerUnit2" parent="." instance=ExtResource("2_jqamo")]
+position = Vector2(-182, 18)
+
+[node name="PlayerUnit3" parent="." instance=ExtResource("2_jqamo")]
+position = Vector2(-182, -23)
+
+[node name="PlayerUnit4" parent="." instance=ExtResource("2_jqamo")]
+position = Vector2(-182, -44)
+
+[node name="PlayerUnit5" parent="." instance=ExtResource("2_jqamo")]
+position = Vector2(-182, 40)
+
 [node name="Enemyunit" parent="." instance=ExtResource("4_y0kcc")]
 position = Vector2(168, -1)
+health = 75
+
+[node name="Enemyunit2" parent="." instance=ExtResource("4_y0kcc")]
+position = Vector2(168, 18)
+health = 75
+
+[node name="Enemyunit3" parent="." instance=ExtResource("4_y0kcc")]
+position = Vector2(168, -21)
+health = 75
+
+[node name="Enemyunit4" parent="." instance=ExtResource("4_y0kcc")]
+position = Vector2(168, 38)
+health = 75
+
+[node name="Enemyunit5" parent="." instance=ExtResource("4_y0kcc")]
+position = Vector2(168, -41)
+health = 75
+
+[node name="Enemyunit6" parent="." instance=ExtResource("4_y0kcc")]
+position = Vector2(168, 58)
+health = 75
+
+[node name="Enemyunit7" parent="." instance=ExtResource("4_y0kcc")]
+position = Vector2(168, -61)
+health = 75

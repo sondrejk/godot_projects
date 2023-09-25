@@ -7,6 +7,8 @@
 [node name="Enemyunit" instance=ExtResource("1_qlpte")]
 position = Vector2(0, 0)
 script = ExtResource("2_unfu7")
+health = 70
+move_speed = 35.0
 
 [node name="Sprite" parent="." index="0"]
 texture = ExtResource("2_1wtwq")

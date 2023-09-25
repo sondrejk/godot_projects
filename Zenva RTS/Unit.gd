@@ -22,7 +22,7 @@ func _ready():
 	if is_player:
 		gm.players.append(self)
 	else:
-		gm.players.append(self)
+		gm.enemies.append(self)
 	
 func _physics_process(delta):
 	if agent.is_navigation_finished():
