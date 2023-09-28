@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs566lmctfafk"]
+
+[ext_resource type="PackedScene" uid="uid://buyr8p8mxvlpq" path="res://kanon.tscn" id="1_0kblq"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Kanon" parent="." instance=ExtResource("1_0kblq")]
+
+[node name="Skytetimer" type="Timer" parent="."]
+wait_time = 3.0
+autostart = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[connection signal="timeout" from="Skytetimer" to="Kanon" method="_on_skytetimer_timeout"]
