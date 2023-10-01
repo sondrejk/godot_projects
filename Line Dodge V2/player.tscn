@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dcgdfjvk2vlbw"]
+
+[ext_resource type="Texture2D" uid="uid://b7ug5m0eogttd" path="res://Linedodgeplayer.png" id="1_qoc7e"]
+[ext_resource type="Script" path="res://player.gd" id="1_u0bgq"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_weqcs"]
+radius = 57.0
+height = 306.0
+
+[node name="Player" type="Area2D"]
+script = ExtResource("1_u0bgq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_qoc7e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_weqcs")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
