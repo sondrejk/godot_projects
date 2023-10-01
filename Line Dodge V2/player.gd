@@ -1,6 +1,6 @@
 extends Area2D
 
-var move_speed : float = 50
+var move_speed : float = 25
 
 # Function that calls every frame
 func _process(_delta):
