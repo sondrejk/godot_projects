@@ -1,0 +1,10 @@
+[gd_resource type="EventAsset" format=3 uid="uid://dop6cdka7ilwd"]
+
+[resource]
+is_3d = true
+is_oneshot = true
+min_distance = 5.0
+max_distance = 35.0
+path = "event:/Player/Footstep"
+guid = "{82ecf9e1-c83a-450f-a632-b92069e1f07e}"
+name = "Footstep"

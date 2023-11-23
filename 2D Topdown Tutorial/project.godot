@@ -6,6 +6,7 @@ config/name="2D Topdown Tutorial"
 run/main_scene="res://Levels/game_level.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
+config/tags=PackedStringArray("tutorial")
 
 [display]
 

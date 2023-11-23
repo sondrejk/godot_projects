@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{bc45ddf3-dd54-4e75-a5a3-b95029b98f43}">
+		<property name="name">
+			<value>Spatializer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b4911c65-78d6-49df-9f12-b8af6efbad98}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{465a6ffa-6ec8-450e-a864-97a32d0691cb}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{465a6ffa-6ec8-450e-a864-97a32d0691cb}" />
+</objects>

@@ -1,0 +1,10 @@
+[gd_resource type="EventAsset" format=3 uid="uid://bvcuigj07bk4t"]
+
+[resource]
+is_3d = true
+is_oneshot = true
+min_distance = 5.0
+max_distance = 35.0
+path = "event:/Player/Land"
+guid = "{82a4fff4-dd9c-4057-8d84-2242632d6e45}"
+name = "Land"

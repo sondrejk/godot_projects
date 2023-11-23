@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{656b817b-6ff5-4ea0-8598-273ff291709b}">
+		<property name="assetPath">
+			<value>Source/Coin - Magic Shimmer - B 01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4073958333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{276e949f-f2d0-4a7a-9406-1596ef256cbf}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -6,6 +6,7 @@ config/name="2D RPG Tutorial"
 run/main_scene="res://scenes/world.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://art/icon.svg"
+config/tags=PackedStringArray("tutorial")
 
 [display]
 

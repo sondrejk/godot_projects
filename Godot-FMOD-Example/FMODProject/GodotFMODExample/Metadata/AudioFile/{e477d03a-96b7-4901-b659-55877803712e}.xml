@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e477d03a-96b7-4901-b659-55877803712e}">
+		<property name="assetPath">
+			<value>Source/Falling - Whistle, Cartoony 02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.536</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{276e949f-f2d0-4a7a-9406-1596ef256cbf}</destination>
+		</relationship>
+	</object>
+</objects>

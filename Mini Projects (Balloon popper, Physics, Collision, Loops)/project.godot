@@ -6,6 +6,7 @@ config/name="Mini Projects (Balloon Popper, Physics, Collision, Loops)"
 run/main_scene="res://BalloonPopper/BalloonPopper.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
+config/tags=PackedStringArray("tutorial")
 
 [dotnet]
 

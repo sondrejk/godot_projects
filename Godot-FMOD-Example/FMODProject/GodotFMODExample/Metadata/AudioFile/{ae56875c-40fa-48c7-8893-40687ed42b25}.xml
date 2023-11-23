@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ae56875c-40fa-48c7-8893-40687ed42b25}">
+		<property name="assetPath">
+			<value>Ambience/Forest, Wind, Creaking Tree 01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>24.352416666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{276e949f-f2d0-4a7a-9406-1596ef256cbf}</destination>
+		</relationship>
+	</object>
+</objects>

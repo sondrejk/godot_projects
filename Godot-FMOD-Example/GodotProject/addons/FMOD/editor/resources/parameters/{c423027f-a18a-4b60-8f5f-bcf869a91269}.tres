@@ -1,0 +1,18 @@
+[gd_resource type="ParameterAsset" load_steps=3 format=3 uid="uid://doof64e3so1mq"]
+
+[sub_resource type="FMOD_STUDIO_PARAMETER_ID" id="FMOD_STUDIO_PARAMETER_ID_pgech"]
+data1 = 4162599740
+data2 = 784393298
+
+[sub_resource type="FMOD_STUDIO_PARAMETER_DESCRIPTION" id="FMOD_STUDIO_PARAMETER_DESCRIPTION_2ofle"]
+name = "CoinCount"
+id = SubResource("FMOD_STUDIO_PARAMETER_ID_pgech")
+maximum = 10.0
+flags = 12
+guid = "{c423027f-a18a-4b60-8f5f-bcf869a91269}"
+
+[resource]
+parameter_description = SubResource("FMOD_STUDIO_PARAMETER_DESCRIPTION_2ofle")
+path = "parameter:/CoinCount"
+guid = "{c423027f-a18a-4b60-8f5f-bcf869a91269}"
+name = "CoinCount"

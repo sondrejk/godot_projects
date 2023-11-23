@@ -1,0 +1,10 @@
+[gd_resource type="EventAsset" format=3 uid="uid://mrb3mdytp3u4"]
+
+[resource]
+is_3d = true
+is_oneshot = true
+min_distance = 5.0
+max_distance = 35.0
+path = "event:/Objects/Platform/Fall"
+guid = "{1975d212-8ad2-4f11-a8d1-027988e877b8}"
+name = "Fall"

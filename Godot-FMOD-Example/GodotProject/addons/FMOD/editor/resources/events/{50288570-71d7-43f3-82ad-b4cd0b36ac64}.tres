@@ -1,0 +1,10 @@
+[gd_resource type="EventAsset" format=3 uid="uid://usrxwwb42j8k"]
+
+[resource]
+is_3d = true
+is_oneshot = true
+min_distance = 5.0
+max_distance = 35.0
+path = "event:/Objects/Coin/Collect"
+guid = "{50288570-71d7-43f3-82ad-b4cd0b36ac64}"
+name = "Collect"
