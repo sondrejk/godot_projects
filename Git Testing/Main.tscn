@@ -1,3 +1,22 @@
-[gd_scene format=3 uid="uid://c2pefg6ynihdd"]
+[gd_scene load_steps=4 format=3 uid="uid://c2pefg6ynihdd"]
+
+[sub_resource type="GDScript" id="GDScript_soca8"]
+script/source = "extends CharacterBody2D
+
+# Inshallah jalla
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i5tat"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_0nhjb"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = SubResource("GDScript_soca8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource("CircleShape2D_i5tat")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+texture = SubResource("PlaceholderTexture2D_0nhjb")
