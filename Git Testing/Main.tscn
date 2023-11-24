@@ -2,9 +2,11 @@
 
 [ext_resource type="Script" path="res://Player.gd" id="1_wm5bv"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_i5tat"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8bydd"]
+size = Vector2(100, 100)
 
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_0nhjb"]
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_alrnd"]
+size = Vector2(100, 100)
 
 [node name="Main" type="Node2D"]
 
@@ -12,7 +14,7 @@
 script = ExtResource("1_wm5bv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-shape = SubResource("CircleShape2D_i5tat")
+shape = SubResource("RectangleShape2D_8bydd")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-texture = SubResource("PlaceholderTexture2D_0nhjb")
+texture = SubResource("PlaceholderTexture2D_alrnd")
