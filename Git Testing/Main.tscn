@@ -1,9 +1,3 @@
-[gd_scene format=3 uid="uid://bvar2w1ok6vfi"]
+[gd_scene format=3 uid="uid://c2pefg6ynihdd"]
 
 [node name="Main" type="Node2D"]
-
-<<<<<<< HEAD
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-=======
-[node name="Sprite2D" type="Sprite2D" parent="."]
->>>>>>> test-branch-2
